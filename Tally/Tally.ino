@@ -16,7 +16,7 @@ bool ShowModuleNumberLoop = false;
 // WiFi network name and password:
 const char * networkName = "NETWORKNAME";
 const char * networkPswd = "NETWORKPASSWORD";
-byte number = 0x00;
+byte number = 0x03;
 
 //Are we currently connected?
 boolean connected = false;
@@ -49,8 +49,9 @@ void setup() {
     delay(200);
   }
   
-  Serial.print("\nShow modulenumber");
   // show modulenumber
+  ShowModuleNumberLoop = true;
+  ShowModuleNumber = 5000;
   ShowNumber(ModuleNumber);
 }
 
