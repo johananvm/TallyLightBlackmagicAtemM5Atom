@@ -31,7 +31,7 @@ Instruction for M5 Atom
     - (optional) If you changed the udp ip/port in the server, change the variables 'IPAddress' and 'udpPort' to match the server
 - Now you can verify and upload the file to you M5Atom
 
-Instructions during use
+Instructions for use
 - You can press the button on the M5 Atom to view the current number
 - If you press the button again within 5 seconds, the number of the Tally will change, and it will listen to another byte in the payload from the server
 - After number 9, the number will go back to 1, so 9 Tally's are supported
