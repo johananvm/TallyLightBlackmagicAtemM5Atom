@@ -13,7 +13,7 @@ Instruction for M5 Atom
 - Download and install the M5 stack usb drivers (CP210x_VCP) (https://m5stack.com/pages/download)
 - Open the Arduino IDE to install some required dependencies
 - Go to File -> Preferences
-- Add the following url to 'Additional Boards Manager URLs:
+- Add the following url to 'Additional Boards Manager URLs':
   https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   (source: https://github.com/espressif/arduino-esp32)
 - Go to Tools -> Board -> Boards manager
