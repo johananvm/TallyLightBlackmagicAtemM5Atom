@@ -1,5 +1,5 @@
 # BlackmagicAtemToM5Atom
-Code for sending signals from an Blackmagic Atem video mixer to an M5 atom board (Arduino) via a server (C#)
+Code for sending signals from an Blackmagic Atem video mixer to an M5 atom board (Arduino) via a server (C#) for use as a tally light (https://en.wikipedia.org/wiki/Tally_light)
 
 Instructions for the server:
 - Download and install ATEM Switcher software (https://www.blackmagicdesign.com/nl/developer/product/atem)
